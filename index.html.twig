@@ -14,7 +14,47 @@
 	
 		
 		
+		<script id="event-template" type="text/x-handlebars-template">
+		{% verbatim %}
+			{{#each post}}
+				<div class="event {{#givesEventPremium custom_fields.event_is_premium }}{{/givesEventPremium}} {{#givesEventCategory categories.0.slug }}{{/givesEventCategory}} {{#givesEventYear custom_fields.event_date }}{{/givesEventYear}} {{#testIfPastEventClass custom_fields.event_date }}{{/testIfPastEventClass}}" data-status="{{#testIfPastEventClass custom_fields.event_date }}{{/testIfPastEventClass}}" data-date="{{#testIfPastEventOrder custom_fields.event_date id }}{{/testIfPastEventOrder}}" data-title="{{slug}}">
+					<div class="card card-wide mdl-card mdl-shadow--2dp" card-url="https://www.letemps.ch">
+						<div class="card-header mdl-card__title" style="background: url('{{thumbnail_images.et-pb-post-main-image-fullwidth.url}}')">
+							<!--{{#checkIfPremium custom_fields.event_is_premium }}{{/checkIfPremium}}-->
+							<div class="card-overlay">
+								<h1 class="card-title mdl-card__title-text">{{{title}}}</h1>
+							</div>
+							
+						</div>
+						<div class="card-desc mdl-card__supporting-text">					
+							<span class="card-meta"><span class""card-meta--date>{{#formatDate custom_fields.event_date }}{{/formatDate}}</span><span class="card-meta--tag">#{{categories.0.title}}</span></span>
+							{{custom_fields.event_desc}}
+						</div>
 
+						<div class="card-footer mdl-card__supporting-text">
+							<a href="{{custom_fields.event_url}}" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect {{#testIfPastEventClass custom_fields.event_date }}{{/testIfPastEventClass}}">
+						      Je participe
+						    </a>
+							<!--{{{custom_fields.event_where}}}-->
+							
+							<a href="{{custom_fields.event_google_map_url}}" target="_blank" id="card-nav-menu-{{id}}" class="nav-menu mdl-button mdl-js-button mdl-button--icon">
+							  <i class="material-icons">location_on</i>
+							</a>
+							<button id="card-share-menu-{{id}}" class="share-menu mdl-button mdl-js-button mdl-button--icon">
+							  <i class="material-icons">share</i>
+							</button>
+							<ul class="grid--event--share mdl-menu mdl-menu--top-right mdl-js-menu mdl-js-ripple-effect share-menu--content"
+							    data-mdl-for="card-share-menu-{{id}}">
+							  <a href="https://www.facebook.com/sharer.php?u={{custom_fields.event_url}}&display=popup&ref=plugin&src=share_button" target="_blank"><li class="mdl-menu__item">Facebook</li></a>
+							  <a href="https://twitter.com/intent/tweet?text=Les événement du Temps – {{title}} - {{custom_fields.event_url}}&via=letemps" target="_blank"><li class="mdl-menu__item">Twitter</li></a>
+							  <a target="blank" href="https://www.linkedin.com/shareArticle?url={{custom_fields.event_url}}&mini=true&title={{title}}&summary={{custom_fields.event_desc}}&source={{'Le Temps'}}"><li class="mdl-menu__item">Linkedin</li></a>
+							</ul>
+						</div>
+					</div>
+				</div>
+			{{/each}}
+		{% endverbatim %}
+		</script>
 	</head>
 	<body style="padding-top: {{ navBarOffset }};">
 		{{ block('bar_brand') }}
@@ -22,49 +62,7 @@
 		
 
 		<header>
-			<!-- <nav class="navbar navbar-expand-lg navbar-transparent navbar-dark navbar-theme-success mb-4">
-                <div class="container position-relative">
-                    <a class="navbar-brand mr-lg-5" href="../index.html">
-                        <img class="navbar-brand-dark" src="img/logo-lt.svg" alt="menuimage">
-                        <img class="navbar-brand-light" src="img/brand/dark.svg" alt="menuimage">
-                    </a>
-                    <div class="navbar-collapse collapse" id="navbar-success">
-                        <div class="navbar-collapse-header">
-                            <div class="row">
-                                <div class="col-6 collapse-brand">
-                                    <a href="../index.html">
-                                        <img src="img/brand/secondary.svg" alt="menuimage">
-                                    </a>
-                                </div>
-                                <div class="col-6 collapse-close">
-                                    <i class="fas fa-times" data-toggle="collapse" role="button" data-target="#navbar-primary" aria-controls="navbar-primary" aria-expanded="false" aria-label="Toggle navigation"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
-                            <li class="nav-item"><a href="#" class="nav-link">Account</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Profile</a></li>
-                            <li class="nav-item dropdown">
-                                <a href="#" class="nav-link" data-toggle="dropdown" role="button">
-                                    <i class="fas fa-angle-down nav-link-arrow"></i>
-                                    <span class="nav-link-inner-text">Settings</span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="../html/sections/about.html">Action 1</a></li>
-                                    <li><a class="dropdown-item" href="../html/sections/blog.html">Action 2</a></li>
-                                    <li><a class="dropdown-item" href="../html/sections/clients.html">Action 3</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="d-flex align-items-center">
-                        <p class="text-white mb-0">Success navbar</p>
-                        <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#navbar-primary" aria-controls="navbar-primary" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </div>
-                </div>
-            </nav> -->
+			
 			
 
 		</header>
@@ -79,8 +77,6 @@
 				<!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
 			</div>
 
-			<!-- Content here -->
-			<!-- <h1>Hello Paul Ronga</h1> -->
 
 			<div class="row">
 				<div class="col-sm">
@@ -189,7 +185,6 @@
 		</div>
 		
 		<footer>
-			
 		</footer>
 		
 		{{ block('footer_brand') }}

@@ -1540,6 +1540,17 @@
 		"oAP": "/indexH.php",
 		"oF": 0
 		},
+	"/js/eventjs.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/eventjs-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/js/handlebars-v4.0.4.js": {
 		"bF": 0,
 		"ft": 64,
