@@ -1,0 +1,211 @@
+{% use '_blocks.html.twig' %}
+
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+
+		{{ block('head_brand') }}
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="css/pixel.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> 
+	
+		
+		
+
+	</head>
+	<body style="padding-top: {{ navBarOffset }};">
+		{{ block('bar_brand') }}
+
+		
+
+		<header>
+			<!-- <nav class="navbar navbar-expand-lg navbar-transparent navbar-dark navbar-theme-success mb-4">
+                <div class="container position-relative">
+                    <a class="navbar-brand mr-lg-5" href="../index.html">
+                        <img class="navbar-brand-dark" src="img/logo-lt.svg" alt="menuimage">
+                        <img class="navbar-brand-light" src="img/brand/dark.svg" alt="menuimage">
+                    </a>
+                    <div class="navbar-collapse collapse" id="navbar-success">
+                        <div class="navbar-collapse-header">
+                            <div class="row">
+                                <div class="col-6 collapse-brand">
+                                    <a href="../index.html">
+                                        <img src="img/brand/secondary.svg" alt="menuimage">
+                                    </a>
+                                </div>
+                                <div class="col-6 collapse-close">
+                                    <i class="fas fa-times" data-toggle="collapse" role="button" data-target="#navbar-primary" aria-controls="navbar-primary" aria-expanded="false" aria-label="Toggle navigation"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+                            <li class="nav-item"><a href="#" class="nav-link">Account</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Profile</a></li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link" data-toggle="dropdown" role="button">
+                                    <i class="fas fa-angle-down nav-link-arrow"></i>
+                                    <span class="nav-link-inner-text">Settings</span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../html/sections/about.html">Action 1</a></li>
+                                    <li><a class="dropdown-item" href="../html/sections/blog.html">Action 2</a></li>
+                                    <li><a class="dropdown-item" href="../html/sections/clients.html">Action 3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <p class="text-white mb-0">Success navbar</p>
+                        <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#navbar-primary" aria-controls="navbar-primary" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </nav> -->
+			
+
+		</header>
+
+		<div class="container">
+
+			<div class="jumbotron">
+				<h1 class="display-2">Die besten Arbeiten</h1>
+				<p class="lead">Animationen, Karten, Infografiken, Datenprojekte und neue Storytelling-Formate von Marc Brupbacher, Kaspar Manz, Mathias Lutz, Patrick Vögeli und Sebastian Broschinski</p>
+				<hr class="my-4">
+				<p>Open Source: Gitlab, npm</p>
+				<!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
+			</div>
+
+			<!-- Content here -->
+			<!-- <h1>Hello Paul Ronga</h1> -->
+
+			<div class="row">
+				<div class="col-sm">
+					<div class="blog-card">
+					    <div class="card shadow-soft border-light">
+					        <img src="img/article/social-federer.jpg" class="card-img-top" alt="image">
+					        <div class="card-header">
+					            <div class="post-meta d-block">
+					                <span class="small text-gray"><i class="far fa-clock mr-2"></i>Last updated 3 mins ago</span>
+					            </div>
+					        </div>
+					        <div class="card-body pt-0">
+					            <a href="#">
+					                <h4>Remote workers, here's how to dodge</h4>
+					            </a>
+					            <p class="card-text my-2">According to some historical records, some people out
+					                there have boundless energy, loads of free time, and ambition...</p>
+					        </div>
+					        <div class="card-footer mx-4 px-0 pt-0">
+					            <a class="btn btn-sm btn-secondary" href="#">
+					                Read More
+					            </a>
+					        </div>
+					    </div>
+					</div>
+				</div>
+				<div class="col-sm">
+					<div class="blog-card">
+					    <div class="card shadow-soft border-light">
+					        <img src="img/article/social-groen.jpg" class="card-img-top" alt="image">
+					        <div class="card-header">
+					            <div class="post-meta d-block">
+					                <span class="small text-gray"><i class="far fa-clock mr-2"></i>Last updated 3 mins ago</span>
+					            </div>
+					        </div>
+					        <div class="card-body pt-0">
+					            <a href="#">
+					                <h4>Remote workers, here's how to dodge</h4>
+					            </a>
+					            <p class="card-text my-2">According to some historical records, some people out
+					                there have boundless energy, loads of free time, and ambition...</p>
+					        </div>
+					        <div class="card-footer mx-4 px-0 pt-0">
+					            <a class="btn btn-sm btn-secondary" href="#">
+					                Read More
+					            </a>
+					        </div>
+					    </div>
+					</div>
+				</div>
+				
+			</div>
+
+			<div class="row">
+				<div class="col-sm">
+					<div class="blog-card">
+					    <div class="card shadow-soft border-light">
+					        <img src="img/article/social-femme.jpg" class="card-img-top" alt="image">
+					        <div class="card-header">
+					            <div class="post-meta d-block">
+					                <span class="small text-gray"><i class="far fa-clock mr-2"></i>Last updated 3 mins ago</span>
+					            </div>
+					        </div>
+					        <div class="card-body pt-0">
+					            <a href="#">
+					                <h4>Remote workers, here's how to dodge</h4>
+					            </a>
+					            <p class="card-text my-2">According to some historical records, some people out
+					                there have boundless energy, loads of free time, and ambition...</p>
+					        </div>
+					        <div class="card-footer mx-4 px-0 pt-0">
+					            <a class="btn btn-sm btn-secondary" href="#">
+					                Read More
+					            </a>
+					        </div>
+					    </div>
+					</div>
+				</div>
+				<div class="col-sm">
+					<div class="blog-card">
+					    <div class="card shadow-soft border-light">
+					        <img src="img/article/social-pinchat.jpg" class="card-img-top" alt="image">
+					        <div class="card-header">
+					            <div class="post-meta d-block">
+					                <span class="small text-gray"><i class="far fa-clock mr-2"></i>Last updated 3 mins ago</span>
+					            </div>
+					        </div>
+					        <div class="card-body pt-0">
+					            <a href="#">
+					                <h4>Remote workers, here's how to dodge</h4>
+					            </a>
+					            <p class="card-text my-2">According to some historical records, some people out
+					                there have boundless energy, loads of free time, and ambition...</p>
+					        </div>
+					        <div class="card-footer mx-4 px-0 pt-0">
+					            <a class="btn btn-sm btn-secondary" href="#">
+					                Read More
+					            </a>
+					        </div>
+					    </div>
+					</div>
+				</div>
+				
+			</div>
+
+		</div>
+		
+		<footer>
+			
+		</footer>
+		
+		{{ block('footer_brand') }}
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js"></script>
+
+
+        
+		<script src="js/pixel.js"></script>
+        <script src="js/main.js"></script>
+
+       
+		
+	</body>
+</html>

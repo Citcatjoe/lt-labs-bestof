@@ -1,0 +1,144 @@
+@charset "UTF-8"; 
+//=====================================================================//
+// COLORS
+//=====================================================================//
+$black:#000; 
+$white:#fff;
+$twitter:#00aced;  
+$facebook:#3d5a98;       
+
+$red-lt: #b80021;
+$red-lt-darker: #5FA99F;  
+
+$gray: #323232;   
+$odd-color: #f7f7f7; 
+
+//=====================================================================//
+// FONTS
+//=====================================================================//
+
+// headings
+//@include font-face("ratio_light", "../fonts/ratio_light", $file-formats: eot woff ttf svg); 
+//@include font-face("ratio_reg", "../fonts/ratio_reg", $file-formats: eot woff ttf svg); 
+  //@include font-face("ratio_medium", "../fonts/ratio_medium", $file-formats: eot woff ttf svg); 
+  //@include font-face("ratio_bold", "../fonts/ratio_bold", $file-formats: eot woff ttf svg); 
+
+// paragraphs
+  //@include font-face("rooney_light", "../fonts/rooney_light", $file-formats: eot woff ttf svg); 
+//@include font-face("rooney_medium", "../fonts/rooney_medium", $file-formats: eot woff ttf svg); 
+  //@include font-face("rooney_bold", "../fonts/rooney_bold", $file-formats: eot woff ttf svg); 
+
+//$font1: 'Merriweather';
+$font1: 'Poppins';
+$font2: 'Open sans';
+$font3: 'Oswald';
+
+$light: 100;
+$regular: 400;
+$bold: 600;
+
+//=====================================================================//
+// TRANSITIONS
+//=====================================================================//
+$transition-speed:0.3s;
+$bezier:cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+//=====================================================================//
+// DISTANCES
+//=====================================================================//
+$columnW: 700px;
+
+//=====================================================================//
+// Z-INDEX
+//=====================================================================//
+$zHeader: 100;
+$zOverlay: 200;
+$zModal: 300;
+
+
+//=====================================================================//
+// MORE MIXINS
+//=====================================================================//
+@mixin breakpoint($class) {
+@if $class == xxs {
+    @media (max-width: 400px) { @content; }
+  }
+
+  @if $class == xs {
+    @media (max-width: 500px) { @content; }
+  }
+ 
+  @else if $class == sm {
+    @media (max-width: 768px) { @content; } 
+  }
+ 
+  @else if $class == md {
+    @media (max-width: 1024px) { @content; }
+  }
+ 
+  @else if $class == lg {
+    @media (max-width: 1280px) { @content; }
+  }
+
+  @else if $class == xl {
+    @media (max-width: 1600px) { @content; }
+  }
+ 
+  @else {
+    @warn "Breakpoint mixin supports: xxs, xs, sm, md, lg, xl";
+  }
+} 
+
+html { background: $white; color: #222; font-size: 17px; line-height: 1.4; height: 100%; }
+body { min-height: 100%; background: #f9f9f9; }
+img { display:block; width: 100%; &.separateur { width: 350px; max-width: 80%; margin: 30px auto; } }
+hr { background: $red-lt-darker; height: 4px !important; width: 150px; border-radius: 3px; }
+
+ 
+header
+{
+    height: 110px ;
+}
+
+.brand-nav
+{
+    background: rgba(255, 255, 255, .8) !important;
+    border-bottom: 1px solid #d6d6d6
+}
+
+#brand-logo path 
+{
+    fill: #930025 ;
+}
+
+div.brand-nav div.brand-social-wrapper span.brand-button
+{
+    color: #930025;
+}
+
+.jumbotron
+{
+    margin-bottom: 80px;
+    background: transparent;
+    text-align: center;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.jumbotron hr 
+{
+    margin: auto;
+    background: #930025;
+    height: 2px !important;
+    // border-radius: 50%;
+}
+
+footer 
+{
+    height: 60px;
+    background: #930025;
+    margin-top: 100px;
+}
+
+
+
+
