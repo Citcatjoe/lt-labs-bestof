@@ -1532,12 +1532,12 @@
 		"oAP": "/index.php",
 		"oF": 0
 		},
-	"/indexH.php": {
+	"/indexLT.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/indexH.php",
+		"oAP": "/indexLT.php",
 		"oF": 0
 		},
 	"/js/eventjs.js": {
@@ -1599,6 +1599,14 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "/json/data-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/json/interactive.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/json/interactive-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -24357,7 +24365,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http://localhost:8888/lt-longread-plastique",
+	"externalServerAddress": "http://localhost:8888/lt-labs-bestof",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",

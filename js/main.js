@@ -1,10 +1,23 @@
 jQuery(document).ready(function($) 
 {
-	// INITIALISATION DU SLIDER
-	// $('.bxslider').bxSlider({
-	// 	//mode: 'fade'
-	// });
+    $.getJSON( "../json/interactive.json", function( data ) {  
+       
+        console.log(data);
+        displayEvents(data);
 
+    });
+
+    function displayEvents(data){
+        console.log(data);
+        var source   = $("#card-template").html();
+        var template = Handlebars.compile(source);
+        var html = template({'post':data});
+        $(".card-container").html(html);
+
+        // initMixer();
+        // hideOverlay()
+        // preventLinkBehavior();
+    }
 
 
 	$(".goubet").mouseover(function () {
