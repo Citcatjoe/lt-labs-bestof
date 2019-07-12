@@ -1462,48 +1462,81 @@
 		"opt": 1,
 		"q": 100
 		},
-	"/img/article/social-federer.jpg": {
+	"/img/avant-apres_mitage-social.jpg": {
 		"ft": 16384,
+		"iS": 300367,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/avant-apres_mitage-social.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/bataille-mossoul-etat-islamique-social2.jpg": {
+		"ft": 16384,
+		"iS": 646389,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/bataille-mossoul-etat-islamique-social2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/carte-emplois-social2.jpg": {
+		"ft": 16384,
+		"iS": 409413,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/carte-emplois-social2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/carte-glaciers-2100-social.jpg": {
+		"ft": 16384,
+		"iS": 202754,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/carte-glaciers-2100-social.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/empty.png": {
+		"ft": 32768,
 		"iS": 0,
+		"oA": 0,
+		"oAP": "/img/empty.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/guide-des-series-social.jpg": {
+		"ft": 16384,
+		"iS": 617758,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/img/article/social-federer.jpg",
+		"oAP": "/img/guide-des-series-social.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/img/article/social-femme.jpg": {
+	"/img/led-thumbnail.jpg": {
 		"ft": 16384,
-		"iS": 381761,
+		"iS": 91985,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/img/article/social-femme.jpg",
+		"oAP": "/img/led-thumbnail.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/article/social-groen.jpg": {
-		"ft": 16384,
-		"iS": 110568,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/article/social-groen.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/article/social-pinchat.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/article/social-pinchat.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/logo-lt.svg": {
@@ -1515,6 +1548,127 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/img/longread-federer-20-ans-carriere-social2.jpg": {
+		"ft": 16384,
+		"iS": 217239,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/longread-federer-20-ans-carriere-social2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/longread-fioul-lourd-soci4.jpg": {
+		"ft": 16384,
+		"iS": 192852,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/longread-fioul-lourd-soci4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/longread-groenland-social.jpg": {
+		"ft": 16384,
+		"iS": 205877,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/longread-groenland-social.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/longread-homo-plasticus-social.jpg": {
+		"ft": 16384,
+		"iS": 61917,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/longread-homo-plasticus-social.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/longread-permafrost-social.jpg": {
+		"ft": 16384,
+		"iS": 314251,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/longread-permafrost-social.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/longread-pesticides-social.jpg": {
+		"ft": 16384,
+		"iS": 187544,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/longread-pesticides-social.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/prisons-092.jpg": {
+		"ft": 16384,
+		"iS": 436131,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/prisons-092.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/quiz-mensonges-social.jpg": {
+		"ft": 16384,
+		"iS": 220842,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/quiz-mensonges-social.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/quiz-murs-social.jpg": {
+		"ft": 16384,
+		"iS": 113793,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/quiz-murs-social.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/social.jpg": {
+		"ft": 16384,
+		"iS": 69732,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/social.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/tchernobyl-14.jpg": {
+		"ft": 16384,
+		"iS": 116492,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/tchernobyl-14.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/index.html.twig": {
 		"cB": 0,
@@ -1580,6 +1734,17 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/js/main-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/js/pixel-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/pixel-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

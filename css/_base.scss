@@ -104,6 +104,9 @@ a:hover h4
 header
 {
     height: 110px ;
+    @media screen and (max-width: 1200px) {
+      height: 60px ;
+    }
 }
 
 .brand-nav
@@ -133,6 +136,10 @@ div.brand-nav div.brand-social-wrapper span.brand-button
     background: transparent;
     text-align: center;
     border-bottom: 1px solid #d6d6d6;
+
+    @media screen and (max-width: 1200px) {
+      margin-bottom: 40px;
+    }
 }
 
 .jumbotron hr 
@@ -151,6 +158,11 @@ div.brand-nav div.brand-social-wrapper span.brand-button
 
   &:nth-child(even)
   {
+    margin-right: 0;
+  }
+
+  @media screen and (max-width: 767px) {
+    width: 100%;
     margin-right: 0;
   }
 }

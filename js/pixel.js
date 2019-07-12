@@ -48,16 +48,16 @@ $(document).ready(function () {
     });
 
     // Headroom - show/hide navbar on scroll
-    if ($('.headroom')[0]) {
-        var headroom = new Headroom(document.querySelector("#navbar-main"), {
-            offset: 0,
-            tolerance: {
-                up: 0,
-                down: 0
-            },
-        });
-        headroom.init();
-    }
+    // if ($('.headroom')[0]) {
+    //     var headroom = new Headroom(document.querySelector("#navbar-main"), {
+    //         offset: 0,
+    //         tolerance: {
+    //             up: 0,
+    //             down: 0
+    //         },
+    //     });
+    //     headroom.init();
+    // }
 
     // Background images for sections
     $('[data-background]').each(function () {
