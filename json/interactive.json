@@ -5,7 +5,9 @@
   "titre": "Au pied du mur, le quiz",
   "description": "Au moins septante murs de séparation couvrent l’équivalent de la circonférence de la Terre. Testez vos connaissances",
   "URL": "https://labs.letemps.ch/interactive/2019/quiz-murs/",
-  "social-img": "http://labs.letemps.ch/interactive/2019/quiz-murs/img/social.jpg"
+  "social-img": "img/quiz-murs-social.jpg",
+  "folder": "quiz-murs",
+  "social-img-remote": "http://labs.letemps.ch/interactive/2019/quiz-murs/img/social.jpg"
  },
  {
   "year": 2019,
@@ -13,7 +15,9 @@
   "titre": "Au Groenland, l’aubaine de la fonte des glaces ",
   "description": "Alors que leur île voit sa glace fondre quatre fois plus vite en dix ans, les Groenlandais préfèrent voir le réchauffement comme une opportunité",
   "URL": "https://labs.letemps.ch/interactive/2019/longread-groenland/",
-  "social-img": "http://labs.letemps.ch/interactive/2019/longread-groenland/social.jpg"
+  "social-img": "img/longread-groenland-social.jpg",
+  "folder": "longread-groenland",
+  "social-img-remote": "http://labs.letemps.ch/interactive/2019/longread-groenland/social.jpg"
  },
  {
   "year": 2019,
@@ -21,7 +25,9 @@
   "titre": "L’extension des zones bâties en Suisse",
   "description": "Entre 1960 et 2017, la surface des zones bâties a augmenté de 50%. Six comparaisons avant le vote sur l’initiative contre le mitage",
   "URL": "https://labs.letemps.ch/interactive/2019/avant-apres_mitage/",
-  "social-img": "http://labs.letemps.ch/interactive/2019/avant-apres_mitage/social.jpg"
+  "social-img": "img/avant-apres_mitage-social.jpg",
+  "folder": "avant-apres_mitage",
+  "social-img-remote": "http://labs.letemps.ch/interactive/2019/avant-apres_mitage/social.jpg"
  },
  {
   "year": 2018,
@@ -29,7 +35,9 @@
   "titre": "Les meilleures séries des 20 dernières années: notre guide",
   "description": "Pour ses 20 ans, «Le Temps» propose le meilleur des feuilletons depuis 1998. Choisissez des filtres et composez votre menu",
   "URL": "https://labs.letemps.ch/guide-des-series/",
-  "social-img": "https://labs.letemps.ch/guide-des-series/img/social.jpg"
+  "social-img": "img/guide-des-series-social.jpg",
+  "folder": "guide-des-series",
+  "social-img-remote": "https://labs.letemps.ch/guide-des-series/img/social.jpg"
  },
  {
   "year": 2018,
@@ -37,7 +45,9 @@
   "titre": "Homo Plasticus",
   "description": "La terre digère mal les cinq milliards de tonnes de plastique que l’homme a jetées dans la nature. Bilan et solutions",
   "URL": "https://labs.letemps.ch/interactive/2018/longread-homo-plasticus/",
-  "social-img": "http://labs.letemps.ch/interactive/2018/longread-homo-plasticus/social.jpg"
+  "social-img": "img/longread-homo-plasticus-social.jpg",
+  "folder": "longread-homo-plasticus",
+  "social-img-remote": "http://labs.letemps.ch/interactive/2018/longread-homo-plasticus/social.jpg"
  },
  {
   "year": 2018,
@@ -45,7 +55,9 @@
   "titre": "Dans les champs romands, la bataille des pesticides",
   "description": "L’agriculture suisse est l’une des plus intensives d’Europe, à grand renfort de pesticides. Les initiatives se multiplient pour en réduire l'usage",
   "URL": "https://labs.letemps.ch/interactive/2018/longread-pesticides/",
-  "social-img": "http://labs.letemps.ch/interactive/2018/longread-pesticides/social.jpg"
+  "social-img": "img/longread-pesticides-social.jpg",
+  "folder": "longread-pesticides",
+  "social-img-remote": "http://labs.letemps.ch/interactive/2018/longread-pesticides/social.jpg"
  },
  {
   "year": 2018,
@@ -53,7 +65,9 @@
   "titre": "Le mensonge paie-t-il en politique?",
   "description": "L’histoire est constellée de mensonges politiques, qui ont plus ou moins marché, plus ou moins longtemps. Dix questions pour vous tester",
   "URL": "https://labs.letemps.ch/interactive/2018/quiz-mensonges/",
-  "social-img": "http://labs.letemps.ch/interactive/2018/quiz-mensonges/img/social.jpg"
+  "social-img": "img/quiz-mensonges-social.jpg",
+  "folder": "quiz-mensonges",
+  "social-img-remote": "http://labs.letemps.ch/interactive/2018/quiz-mensonges/img/social.jpg"
  },
  {
   "year": 2018,
@@ -61,7 +75,9 @@
   "titre": "En 2100, il ne restera au mieux qu’une cinquantaine de glaciers en Suisse",
   "description": "Si les températures s’élèvent de 2 degrés d’ici à la fin du siècle, seuls 48 glaciers survivraient sur les quelque 1400 actuels",
   "URL": "https://labs.letemps.ch/interactive/2018/carte-glaciers-2100/",
-  "social-img": "http://labs.letemps.ch/interactive/2018/carte-glaciers-2100/social.jpg"
+  "social-img": "img/carte-glaciers-2100-social.jpg",
+  "folder": "carte-glaciers-2100",
+  "social-img-remote": "http://labs.letemps.ch/interactive/2018/carte-glaciers-2100/social.jpg"
  },
  {
   "year": 2018,
@@ -69,7 +85,9 @@
   "titre": "Comment Federer est devenu Federer",
   "description": "En 1998, un jeune espoir suisse du tennis disputait son premier match professionnel à Gstaad. Récit de son extraordinaire parcours",
   "URL": "https://labs.letemps.ch/interactive/2018/longread-federer-20-ans-carriere/",
-  "social-img": "http://labs.letemps.ch/interactive/2018/longread-federer-20-ans-carriere/social2.jpg"
+  "social-img": "img/longread-federer-20-ans-carriere-social2.jpg",
+  "folder": "longread-federer-20-ans-carriere",
+  "social-img-remote": "http://labs.letemps.ch/interactive/2018/longread-federer-20-ans-carriere/social2.jpg"
  },
  {
   "year": 2017,
@@ -77,7 +95,9 @@
   "titre": "Surveiller et punir",
   "description": "Le photographe Sébastien Van Malleghem s’est immergé dans le quotidien d’une dizaine de prisons en Belgique",
   "URL": "https://labs.letemps.ch/interactive/2017/prisons/",
-  "social-img": "http://labs.letemps.ch/interactive/2017/prisons/assets/092.jpg"
+  "social-img": "img/prisons-092.jpg",
+  "folder": "prisons",
+  "social-img-remote": "http://labs.letemps.ch/interactive/2017/prisons/assets/092.jpg"
  },
  {
   "year": 2017,
@@ -85,7 +105,9 @@
   "titre": "Les suppressions d'emplois en Suisse",
   "description": "Retour sur les vagues de suppressions d'emploi de juillet 2015 à février 2017, dans la foulée de l’abandon du taux plancher",
   "URL": "https://labs.letemps.ch/interactive/2017/carte-emplois/",
-  "social-img": "http://labs.letemps.ch/interactive/2017/carte-emplois/social2.jpg"
+  "social-img": "img/carte-emplois-social2.jpg",
+  "folder": "carte-emplois",
+  "social-img-remote": "http://labs.letemps.ch/interactive/2017/carte-emplois/social2.jpg"
  },
  {
   "year": 2017,
@@ -93,7 +115,9 @@
   "titre": "A Mossoul, l'ultime bataille contre l'EI",
   "description": "Des dizaines de milliers de civils se trouvent dans le dédale de la vieille ville, où l’Etat islamique s’est retranché avant l’assaut final",
   "URL": "https://labs.letemps.ch/interactive/2017/bataille-mossoul-etat-islamique/",
-  "social-img": "http://labs.letemps.ch/interactive/2017/bataille-mossoul-etat-islamique/social2.jpg"
+  "social-img": "img/bataille-mossoul-etat-islamique-social2.jpg",
+  "folder": "bataille-mossoul-etat-islamique",
+  "social-img-remote": "http://labs.letemps.ch/interactive/2017/bataille-mossoul-etat-islamique/social2.jpg"
  },
  {
   "year": 2016,
@@ -101,7 +125,9 @@
   "titre": "Les enfants de Tchernobyl ont grandi",
   "description": "Le photographe Niels Ackermann raconte l'avenir des jeunes des environs de Tchernobyl, trente ans après l’accident",
   "URL": "https://labs.letemps.ch/interactive/2016/tchernobyl/",
-  "social-img": "http://labs.letemps.ch/interactive/2016/tchernobyl/assets/14.jpg"
+  "social-img": "img/tchernobyl-14.jpg",
+  "folder": "tchernobyl",
+  "social-img-remote": "http://labs.letemps.ch/interactive/2016/tchernobyl/assets/14.jpg"
  },
  {
   "year": 2016,
@@ -109,7 +135,9 @@
   "titre": "Fioul lourd, le sang impur de la globalisation",
   "description": "Polluant et peu contrôlé, le pétrole que brûlent les gros navires marchands est dans le viseur des autorités",
   "URL": "https://labs.letemps.ch/interactive/2016/longread-fioul-lourd/",
-  "social-img": "http://labs.letemps.ch/interactive/2016/longread-fioul-lourd/soci4.jpg"
+  "social-img": "img/longread-fioul-lourd-soci4.jpg",
+  "folder": "longread-fioul-lourd",
+  "social-img-remote": "http://labs.letemps.ch/interactive/2016/longread-fioul-lourd/soci4.jpg"
  },
  {
   "year": 2016,
@@ -117,7 +145,9 @@
   "titre": "Quand la montagne s’effondre",
   "description": "Le changement climatique met les Alpes à rude épreuve et le permafrost dégèle. Pourquoi?",
   "URL": "https://labs.letemps.ch/interactive/2017/longread-permafrost/",
-  "social-img": "http://labs.letemps.ch/interactive/2017/longread-permafrost/social.jpg"
+  "social-img": "img/longread-permafrost-social.jpg",
+  "folder": "longread-permafrost",
+  "social-img-remote": "http://labs.letemps.ch/interactive/2017/longread-permafrost/social.jpg"
  },
  {
   "year": 2015,
@@ -125,6 +155,8 @@
   "titre": "L’étonnante biodiversité des tiroirs des musées",
   "description": "Plongée dans les millions d’espèces inconnues qui dorment dans les musées d’histoire naturelles",
   "URL": "https://labs.letemps.ch/interactive/2015/led/",
-  "social-img": "http://labs.letemps.ch/interactive/2015/led/thumbnail.jpg"
+  "social-img": "img/led-thumbnail.jpg",
+  "folder": "led",
+  "social-img-remote": "http://labs.letemps.ch/interactive/2015/led/thumbnail.jpg"
  }
 ]
