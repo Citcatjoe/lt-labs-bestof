@@ -12,12 +12,12 @@
  {
   "year": 2019,
   "keyword": "GRAND FORMAT",
-  "titre": "L’aubaine de la fonte des glaces ",
-  "description": "Alors que leur île voit sa glace fondre, les Groenlandais préfèrent voir le réchauffement comme une opportunité",
-  "URL": "https://labs.letemps.ch/interactive/2019/longread-groenland/",
-  "social-img": "img/longread-groenland-social.jpg",
-  "folder": "longread-groenland",
-  "social-img-remote": "http://labs.letemps.ch/interactive/2019/longread-groenland/social.jpg"
+  "titre": "Bienvenue à Beattyville",
+  "description": "Dévastée par les opioïdes, «Trump City» est aussi l'une des villes blanches les plus pauvres des Etats-Unis",
+  "URL": "https://www.letemps.ch/grand-format/bienvenue-beattyville",
+  "social-img": "img/grand-format-kentucky.jpg",
+  "folder": "grand-format",
+  "social-img-remote": "https://assets.letemps.ch/sites/default/files/styles/share/public/2019-05/20190415_1432_712_wide.jpg.jpeg"
  },
  {
   "year": 2019,
